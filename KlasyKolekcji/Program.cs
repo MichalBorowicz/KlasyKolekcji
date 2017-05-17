@@ -37,7 +37,7 @@ namespace KlasyKolekcji
             {
                 Console.Write(item + " ");
             }
-            string[] czasNaString = new[] { "ala", "mama", "Nad nami jasne niebo", ",a ja się jednak boje", "cos" };
+            string[] czasNaString = new[] { "ala", "mama", "jasne niebo", "jakis string", "cos" };
             var querry4 = czasNaString.Select(n => n).ToList().Where(a => a.Length == 3);
             foreach (var item in querry4)
             {
